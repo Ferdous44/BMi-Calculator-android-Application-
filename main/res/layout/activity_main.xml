@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#00BCD4"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="#FFFFFF"
+        android:text="Divisible By 5 And 11"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Please Enter a Number:"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:id="@+id/edtext"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Any Number"
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            />
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/Tvdespla"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="normal"/>
+
+        <Button
+            android:id="@+id/nextacti"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="250dp"
+            android:text="Leap Year Calclute"/>
+    </LinearLayout>
+</LinearLayout>
